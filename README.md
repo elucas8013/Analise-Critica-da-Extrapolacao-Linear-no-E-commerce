@@ -76,15 +76,17 @@ Os modelos comparativos apresentaram grandes discrepâncias. O modelo Random For
 | Regressão Linear | R² (Acurácia) | 0.78 |
 
 
-<table style="width:100%;">
-  <tr>
-    <td style="width:50%; text-align:center;">
-      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/graficos/4.1.%20Modelagem%20e%20Proje%C3%A7%C3%A3o%20(IA)%20Proje%C3%A7%C3%A3o%20at%C3%A9%202030.png?raw=true?raw=true" alt="Projeção Linear" width="100%">
-    </td>
-    <td style="width:50%; text-align:center;">
-      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/graficos/4.2.%20Modelagem%20e%20Proje%C3%A7%C3%A3o%20(IA)%20Proje%C3%A7%C3%A3o%20at%C3%A9%202030%20com%20Random%20Forest%20Regressor.png?raw=true" alt="Projeção Random Forest" width="100%">
-    </td>
-  </tr>
+<table>
+  <tr>
+    <td align="center">
+      <h4>Projeção Linear (Divergente)</h4>
+      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/graficos/4.1.%20Modelagem%20e%20Proje%C3%A7%C3%A3o%20(IA)%20Proje%C3%A7%C3%A3o%20at%C3%A9%202030.png?raw=true" alt="Projeção Linear" width="95%">
+    </td>
+    <td align="center">
+      <h4>Projeção Random Forest (Validada)</h4>
+      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/graficos/4.2.%20Modelagem%20e%20Proje%C3%A7%C3%A3o%20(IA)%20Proje%C3%A7%C3%A3o%20at%C3%A9%202030%20com%20Random%20Forest%20Regressor.png?raw=true" alt="Projeção Random Forest" width="95%">
+    </td>
+  </tr>
 </table>
 
 
