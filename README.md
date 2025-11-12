@@ -1,30 +1,28 @@
-# Analise-Critica-da-Extrapolacao-Linear-no-E-commerce
-Um projeto que visa a análise crítica e a modelagem preditiva do crescimento da Receita Líquida da Magazine Luiza (MGLU3), explorando a relação com variáveis macroeconômicas e indicadores de saúde financeira.
-=======
 # Modelo Preditivo para Crescimento de Receita da Magazine Luiza (MGLU3)
 
 ## 📊 Análise Crítica da Extrapolação Linear no E-commerce
 
-Este projeto visa a análise crítica e a modelagem preditiva do crescimento da Receita Líquida da Magazine Luiza (MGLU3), explorando a relação com variáveis macroeconômicas e indicadores de saúde financeira.
+Este projeto visa a análise crítica e a modelagem preditiva do crescimento da Receita Líquida da Magazine Luiza (MGLU3), explorando a relação com variáveis macroeconômicas e indicadores de saúde financeira. O objetivo é demonstrar a limitação da Extrapolação Linear em um setor volátil como o e-commerce e validar o crescimento com modelos não-lineares.
 
 ## 📁 Estrutura do Repositório
 
+O repositório está organizado para facilitar a navegação e a reprodutibilidade do projeto:
+
 | Diretório | Conteúdo |
 | :--- | :--- |
-| **Data/** | Arquivos CSV brutos e tratados, utilizados para as análises e plotagens. |
-| **graficos/** | Plotagens geradas. | 
+| **Data/** | Arquivos CSV brutos e tratados utilizados como *input* para as análises. |
+| **graficos/** | Imagens (`.png`, `.jpg`) das plotagens e visualizações geradas. |
 | **Notebooks/** | Scripts de análise em formato Jupyter Notebook (`.ipynb`), numerados na ordem de execução. |
-| **Relatorio_Tecnico/** | Documento (.pdf) detalhando a metodologia, análise dos dados, resultados e conclusões do projeto. |
+| **Relatorio_Tecnico/** | Documento (`.pdf`) detalhando a metodologia, análise dos dados, resultados e conclusões do projeto. |
 
 ## 🧪 Metodologia
 
-O projeto seguiu a metodologia **CRISP-DM**, abrangendo as seguintes etapas:
+O projeto seguiu a metodologia padrão **CRISP-DM (Cross Industry Standard Process for Data Mining)**, abrangendo as seguintes fases de aplicação:
 
-* Escolha do e-commerce para aplicação dos modelos analiticos
-* Preparação de Dados
-* Análise Macroeconômica
-* Modelagem Preditiva (Regressão Linear Múltipla e Random Forest)
-* Projeção e Validação
+* **1. Entendimento do Negócio:** (Escolha do e-commerce e definição do problema)
+* **2. Entendimento e Preparação de Dados:** (Tratamento dos CSVs e construção do dataset)
+* **3. Modelagem:** (Regressão Linear Múltipla e Random Forest)
+* **4. Avaliação:** (Projeção e Validação dos Modelos)
 
 ## 💻 Tecnologias e Ferramentas
 
@@ -33,7 +31,7 @@ O projeto seguiu a metodologia **CRISP-DM**, abrangendo as seguintes etapas:
 * **Ambiente de Desenvolvimento:** Visual Studio Code (1.105.1) com `venv` (ambiente virtual)
 * **Documentação (Relatório):** Onlyoffice (9.1.0.173) e Master PDF Editor (4.3.89 Qt5)
 
-**Bibliotecas Python Principais:**
+**Bibliotecas Python Principais (Detalhes no `requirements.txt`):**
 * `pandas`
 * `numpy`
 * `scikit-learn` (sklearn)
@@ -42,28 +40,40 @@ O projeto seguiu a metodologia **CRISP-DM**, abrangendo as seguintes etapas:
 
 ## 🛠️ Como Reproduzir a Análise
 
-Para reproduzir os scripts contidos em `./Notebooks/`, siga as instruções abaixo:
+Para reproduzir os scripts contidos em `./Notebooks/` com sucesso:
 
-### 1. Instalação das Dependências (no linux executar o passo 2 primeiro)
-
-pip install -r requirements
-
-### 2. Preparação do Ambiente Virtual (venv)
+### 1. Preparação e Ativação do Ambiente Virtual (venv)
 
 **No Linux:**
 ```bash
-# Instala o kernel venv (se necessário)
+# Instala, cria e ativa o ambiente virtual
 sudo apt install python3.12-venv 
-
-# Cria a chamada venv
 python3 -m venv venv
-
-# Habilita o ambiente virtual
 source venv/bin/activate
 ```
+**No Windows:**
+```bash
+# Cria e ativa o ambiente virtual
+python -m venv venv
+.\venv\Scripts\activate
+```
+### 2. Instalação das Dependências
 
-## 📊 Conclução das Projeções
-A projeção do modelo linear e Random Forest apresentaram grandes discrepancias, sendo o modelo mais estavel o Random Forest, enquanto existe uma clara divergencia da realidade na extrapolação linear:
+Com o ambiente virtual ATIVADO (o que é indicado por (venv) no terminal), instale todas as bibliotecas:
+
+```bash
+pip install -r requirements.txt
+```
+
+## 📊 Conclusão das Projeções e Métricas
+
+Os modelos comparativos apresentaram grandes discrepâncias. O modelo Random Forest mostrou-se mais estável e alinhado com as variáveis econômicas, enquanto a Extrapolação Linear indicou uma clara divergência da realidade esperada.
+
+
+| Modelo | Métrica (Exemplo) | Valor (Exemplo) |
+| :--- | :--- | :--- |
+| Random Forest | R² (Acurácia) | 0.92 |
+| Regressão Linear | R² (Acurácia) | 0.78 |
 
 
 <table style="width:100%;">
@@ -78,3 +88,10 @@ A projeção do modelo linear e Random Forest apresentaram grandes discrepancias
 </table>
 
 
+### 5. Recomendações e Próximos Passos
+
+Para análises futuras, é recomendado:
+
+Explorar Modelos Não-Lineares Avançados: Utilizar modelos como XGBoost ou Prophet para conferir as projeções e capturar nuances não lineares do mercado.
+
+Validação Contínua: Estabelecer uma rotina de validação anual com novos dados reais, garantindo a adaptação do modelo às novas dinâmicas macroeconômicas.
