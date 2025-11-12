@@ -18,7 +18,9 @@ Este projeto visa a análise crítica e a modelagem preditiva do crescimento da 
 
 ## 🧪 Metodologia
 
-O projeto seguiu a metodologia **CRISP-MD**, abrangendo as seguintes etapas:
+O projeto seguiu a metodologia **CRISP-DM**, abrangendo as seguintes etapas:
+
+* Escolha do e-commerce para aplicação dos modelos analiticos
 * Preparação de Dados
 * Análise Macroeconômica
 * Modelagem Preditiva (Regressão Linear Múltipla e Random Forest)
@@ -58,3 +60,21 @@ python3 -m venv venv
 
 # Habilita o ambiente virtual
 source venv/bin/activate
+```
+
+## 📊 Conclução das Projeções
+A projeção do modelo linear e Random Forest apresentaram grandes discrepancias, sendo o modelo mais estavel o Random Forest, enquanto existe uma clara divergencia da realidade na extrapolação linear:
+
+
+<table style="width:100%;">
+  <tr>
+    <td style="width:50%; text-align:center;">
+      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/graficos/4.1.%20Modelagem%20e%20Proje%C3%A7%C3%A3o%20(IA)%20Proje%C3%A7%C3%A3o%20at%C3%A9%202030.png?raw=true?raw=true" alt="Projeção Linear" width="100%">
+    </td>
+    <td style="width:50%; text-align:center;">
+      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/graficos/4.2.%20Modelagem%20e%20Proje%C3%A7%C3%A3o%20(IA)%20Proje%C3%A7%C3%A3o%20at%C3%A9%202030%20com%20Random%20Forest%20Regressor.png?raw=true" alt="Projeção Random Forest" width="100%">
+    </td>
+  </tr>
+</table>
+
+
