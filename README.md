@@ -70,7 +70,7 @@ pip install -r requirements.txt
 Os modelos comparativos apresentaram grandes discrepâncias. O modelo Random Forest mostrou-se mais estável e alinhado com as variáveis econômicas, enquanto a Extrapolação Linear indicou uma clara divergência da realidade esperada.
 
 
-| Modelo | Métrica (Exemplo) | Valor (Exemplo) |
+| Modelo | Métrica | Valor (%) |
 | :--- | :--- | :--- |
 | Random Forest | R² (Acurácia) | 0.92 |
 | Regressão Linear | R² (Acurácia) | 0.78 |
