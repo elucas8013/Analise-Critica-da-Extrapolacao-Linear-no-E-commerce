@@ -93,4 +93,8 @@ Para análises futuras, é recomendado:
 
 Explorar Modelos Não-Lineares Avançados: Utilizar modelos como XGBoost ou Prophet para conferir as projeções e capturar nuances não lineares do mercado.
 
+<<<<<<< HEAD
 Validação Contínua: Estabelecer uma rotina de validação anual com novos dados reais, garantindo a adaptação do modelo às novas dinâmicas macroeconômicas.
+=======
+Validação Contínua: Estabelecer uma rotina de validação anual com novos dados reais, garantindo a adaptação do modelo às novas dinâmicas macroeconômicas.
+>>>>>>> 8d4f76d (sincronização)
