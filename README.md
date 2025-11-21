@@ -32,9 +32,9 @@ The project followed the standard **CRISP-DM (Cross Industry Standard Process fo
 ## 💻 Technologies and Tools
 
 **Development:**
-**** **Language:** Python 3.12.3
-**** **Development Environment:** Visual Studio Code (1.105.1) with `venv` (virtual environment)
-**** **Documentation (Report):** Onlyoffice (9.1.0.173) and Master PDF Editor (4.3.89 Qt5)
+* **Language:** Python 3.12.3
+* **Development Environment:** Visual Studio Code (1.105.1) with `venv` (virtual environment)
+* **Documentation (Report):** Onlyoffice (9.1.0.173) and Master PDF Editor (4.3.89 Qt5)
 
 **Main Python Libraries (Details in `requirements.txt`):**
 * `pandas`
