@@ -11,7 +11,7 @@ O repositório está organizado para facilitar a navegação e a reprodutibilida
 | Diretório | Conteúdo |
 | :--- | :--- |
 | **Data/** | Arquivos CSV brutos e tratados utilizados como *input* para as análises. |
-| **graficos/** | Imagens (`.png`, `.jpg`) das plotagens e visualizações geradas. |
+| **graficos/** | Imagens (`.png`) das plotagens e visualizações geradas. |
 | **Notebooks/** | Scripts de análise em formato Jupyter Notebook (`.ipynb`), numerados na ordem de execução. |
 | **Relatorio_Tecnico/** | Documento (`.pdf`) detalhando a metodologia, análise dos dados, resultados e conclusões do projeto. |
 
