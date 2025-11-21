@@ -1,6 +1,6 @@
 # 🇺🇸 English Version
  
-**[Versão em Português 🇧🇷](#versão-em-português)**
+**[Versão em Português 🇧🇷](#versao-em-portugues)**
 
 # Predictive Model for Revenue Growth at Magazine Luiza (MGLU3)
 
