@@ -1,3 +1,4 @@
+<a id="english-version"></a>
 # 🇺🇸 English Version
  
 **[Versão em Português 🇧🇷](#versao-em-portugues)**
@@ -83,10 +84,10 @@ The comparative models showed large discrepancies. The Random Forest model prove
 <table style="width:100%;">
   <tr>
     <td style="width:50%; text-align:center;">
-      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/graficos/4.1.%20Modelagem%20e%20Proje%C3%A7%C3%A3o%20(IA)%20Proje%C3%A7%C3%A3o%20at%C3%A9%202030.png?raw=true?raw=true" alt="Projeção Linear" width="100%">
+      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/Graphics/4.1.Projected%20Annual%20Revenue%20Growth%20for%20MGLU3%20(Until%202030).png?raw=true" alt="Projeção Linear" width="100%">
     </td>
     <td style="width:50%; text-align:center;">
-      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/graficos/4.2.%20Modelagem%20e%20Proje%C3%A7%C3%A3o%20(IA)%20Proje%C3%A7%C3%A3o%20at%C3%A9%202030%20com%20Random%20Forest%20Regressor.png?raw=true" alt="Projeção Random Forest" width="100%">
+      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/Graphics/4.2.Projected%20Annual%20Revenue%20Growth%20for%20MGLU3%20(Random%20Forest%20-%20Until%202030).png?raw=true" alt="Projeção Random Forest" width="100%">
     </td>
   </tr>
 </table>
@@ -103,6 +104,7 @@ Continuous Validation: Establish an annual validation routine with new real data
 Note: This is a machine-translated version, provided for convenience. Please refer to the original Portuguese version for accuracy.
 ---
 
+<a id="versao-em-portugues"></a>
 # 🇧🇷 Versão em Português
  
 **[English Version 🇺🇸](#english-version)**
@@ -188,10 +190,10 @@ Os modelos comparativos apresentaram grandes discrepâncias. O modelo Random For
 <table style="width:100%;">
   <tr>
     <td style="width:50%; text-align:center;">
-      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/graficos/4.1.%20Modelagem%20e%20Proje%C3%A7%C3%A3o%20(IA)%20Proje%C3%A7%C3%A3o%20at%C3%A9%202030.png?raw=true?raw=true" alt="Projeção Linear" width="100%">
+      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/Graphics/4.1.Proje%C3%A7%C3%A3o%20do%20Crescimento%20Anual%20da%20Receita%20MGLU3%20(At%C3%A9%202030).png?raw=true" alt="Projeção Linear" width="100%">
     </td>
     <td style="width:50%; text-align:center;">
-      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/graficos/4.2.%20Modelagem%20e%20Proje%C3%A7%C3%A3o%20(IA)%20Proje%C3%A7%C3%A3o%20at%C3%A9%202030%20com%20Random%20Forest%20Regressor.png?raw=true" alt="Projeção Random Forest" width="100%">
+      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/Graphics/4.2.Proje%C3%A7%C3%A3o%20do%20Crescimento%20Anual%20da%20Receita%20MGLU3%20(Random%20Forest%20-%20At%C3%A9%202030).png?raw=true" alt="Projeção Random Forest" width="100%">
     </td>
   </tr>
 </table>
