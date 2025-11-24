@@ -74,38 +74,26 @@ pip install -r requirements.txt
 
 The comparative models showed large discrepancies. The Random Forest model proved to be more stable and aligned with the economic variables, while Linear Extrapolation indicated a clear divergence from the expected reality.
 
-<table style="width: 50%; margin: 0 auto; text-align: center; border: 1px solid; margin-bottom: 50px; margin-top: 50px; border-collapse: collapse;">
-  <thead>
-    <tr>
-      <th style="border: 1px solid;">Model</th>
-      <th style="border: 1px solid;">Metric</th>
-      <th style="border: 1px solid;">Value (%)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th style="border: 1px solid;">Random Forest</th>
-      <th style="border: 1px solid;">R² (Accuracy)</th>
-      <th style="border: 1px solid;">0.92</th>
-    </tr>
-    <tr>
-      <th style="border: 1px solid;">Linear Regression</th>
-      <th style="border: 1px solid;">R² (Accuracy)</th>
-      <th style="border: 1px solid;">0.78</th>
-    </tr>
-  </tbody>
-</table>
+<div style="display: table; margin: 0 auto; margin-bottom: 30px; margin-top: 30px;">
+
+| Model | Metric | Value (%) |
+| :--- | :---: | ---: |
+| Random Forest | R² (Accuracy) | 0.92 |
+| Linear Regression | R² (Accuracy) | 0.78 |
+
+</div>
+
+<div style="width: 100%; overflow: auto; margin-bottom: 50px;">
+  <div style="width: 49%; float: left; text-align: center; margin-right: 1%;">
+    <h3>Linear Regression</h3>
+    <img src="./Graphics/4.1.Projected Annual Revenue Growth for MGLU3 (Until 2030).png" alt="Projeção Linear" width="100%">
+  </div>
   
-<table style="width:100%; margin-bottom: 50px;">
-  <tr>
-    <td style="width:50%; text-align:center;">
-      <img src="./Graphics/4.1.Projected Annual Revenue Growth for MGLU3 (Until 2030).png" alt="Projeção Linear" width="100%">
-    </td>
-    <td style="width:50%; text-align:center;">
-      <img src="./Graphics/4.2.Projected Annual Revenue Growth for MGLU3 (Random Forest - Until 2030).png" alt="Projeção Random Forest" width="100%">
-    </td>
-  </tr>
-</table>
+  <div style="width: 49%; float: left; text-align: center;">
+    <h3>Random Forest</h3>
+    <img src="./Graphics/4.2.Projected Annual Revenue Growth for MGLU3 (Random Forest - Until 2030).png" alt="Projeção Random Forest" width="100%">
+  </div>
+</div>
 
 ### 5. Recommendations and Next Steps
 
@@ -195,38 +183,26 @@ pip install -r requirements.txt
 
 Os modelos comparativos apresentaram grandes discrepâncias. O modelo Random Forest mostrou-se mais estável e alinhado com as variáveis econômicas, enquanto a Extrapolação Linear indicou uma clara divergência da realidade esperada.
 
-<table style="width: 50%; margin: 0 auto; text-align: center; border: 1px solid; margin-bottom: 50px; margin-top: 50px; border-collapse: collapse;">
-  <thead>
-    <tr>
-      <th style="border: 1px solid;">Modelo</th>
-      <th style="border: 1px solid;">Métrica</th>
-      <th style="border: 1px solid;">Valor (%)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th style="border: 1px solid;">Random Forest</th>
-      <th style="border: 1px solid;">R² (Acurácia)</th>
-      <th style="border: 1px solid;">0.92</th>
-    </tr>
-    <tr>
-      <th style="border: 1px solid;">Regressão Linear</th>
-      <th style="border: 1px solid;">R² (Acurácia)</th>
-      <th style="border: 1px solid;">0.78</th>
-    </tr>
-  </tbody>
-</table>
+<div style="display: table; margin: 0 auto; margin-bottom: 30px; margin-top: 30px;">
+
+| Modelo | Métrica | Valor (%) |
+| :--- | :---: | ---: |
+| Random Forest | R² (Acurácia) | 0.92 |
+| Regressão Linear | R² (Acurácia) | 0.78 |
+
+</div>
   
-<table style="width:100%; margin-bottom: 50px;">
-  <tr>
-    <td style="width:50%; text-align:center;">
-      <img src="./Graphics/4.1.Projeção do Crescimento Anual da Receita MGLU3 (Até 2030).png" alt="Projeção Linear" width="100%">
-    </td>
-    <td style="width:50%; text-align:center;">
-      <img src="./Graphics/4.2.Projeção do Crescimento Anual da Receita MGLU3 (Random Forest - Até 2030).png" alt="Projeção Random Forest" width="100%">
-    </td>
-  </tr>
-</table>
+<div style="width: 100%; overflow: auto; margin-bottom: 50px;">
+  <div style="width: 49%; float: left; text-align: center; margin-right: 1%;">
+    <h3>Projeção Linear</h3>
+    <img src="./Graphics/4.1.Projeção do Crescimento Anual da Receita MGLU3 (Até 2030).png" alt="Projeção Linear" width="100%">
+  </div>
+  
+  <div style="width: 49%; float: left; text-align: center;">
+    <h3>Random Forest</h3>
+    <img src="./Graphics/4.2.Projeção do Crescimento Anual da Receita MGLU3 (Random Forest - Até 2030).png" alt="Projeção Random Forest" width="100%">
+  </div>
+</div>
 
 ### 5. Recomendações e Próximos Passos
 
