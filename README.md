@@ -84,12 +84,13 @@ The comparative models showed large discrepancies. The Random Forest model prove
 </div>
 
 <div style="width: 100%; overflow: auto; margin-bottom: 50px;">
-  <div style="width: 49%; float: left; text-align: center; margin-right: 1%;">
+  
+  <div style="width: 50%; float: left; text-align: center; padding-right: 15px; box-sizing: border-box;">
     <h3>Linear Regression</h3>
     <img src="./Graphics/4.1.Projected Annual Revenue Growth for MGLU3 (Until 2030).png" alt="Projeção Linear" width="100%">
   </div>
   
-  <div style="width: 49%; float: left; text-align: center;">
+  <div style="width: 50%; float: left; text-align: center; padding-left: 15px; box-sizing: border-box;">
     <h3>Random Forest</h3>
     <img src="./Graphics/4.2.Projected Annual Revenue Growth for MGLU3 (Random Forest - Until 2030).png" alt="Projeção Random Forest" width="100%">
   </div>
@@ -193,12 +194,13 @@ Os modelos comparativos apresentaram grandes discrepâncias. O modelo Random For
 </div>
   
 <div style="width: 100%; overflow: auto; margin-bottom: 50px;">
-  <div style="width: 49%; float: left; text-align: center; margin-right: 1%;">
+  
+  <div style="width: 50%; float: left; text-align: center; padding-right: 15px; box-sizing: border-box;">
     <h3>Projeção Linear</h3>
     <img src="./Graphics/4.1.Projeção do Crescimento Anual da Receita MGLU3 (Até 2030).png" alt="Projeção Linear" width="100%">
   </div>
   
-  <div style="width: 49%; float: left; text-align: center;">
+  <div style="width: 50%; float: left; text-align: center; padding-left: 15px; box-sizing: border-box;">
     <h3>Random Forest</h3>
     <img src="./Graphics/4.2.Projeção do Crescimento Anual da Receita MGLU3 (Random Forest - Até 2030).png" alt="Projeção Random Forest" width="100%">
   </div>
