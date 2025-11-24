@@ -74,20 +74,35 @@ pip install -r requirements.txt
 
 The comparative models showed large discrepancies. The Random Forest model proved to be more stable and aligned with the economic variables, while Linear Extrapolation indicated a clear divergence from the expected reality.
 
-
-| Model | Metric | Value (%) |
-| :--- | :--- | :--- |
-| Random Forest | R² (Accuracy) | 0.92 |
-| Linear Regression | R² (Accuracy) | 0.78 |
-
-
-<table style="width:100%;">
+<table style="width: 50%; margin: 0 auto; text-align: center; border: 1px solid; margin-bottom: 50px; margin-top: 50px; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid;">Model</th>
+      <th style="border: 1px solid;">Metric</th>
+      <th style="border: 1px solid;">Value (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th style="border: 1px solid;">Random Forest</th>
+      <th style="border: 1px solid;">R² (Accuracy)</th>
+      <th style="border: 1px solid;">0.92</th>
+    </tr>
+    <tr>
+      <th style="border: 1px solid;">Linear Regression</th>
+      <th style="border: 1px solid;">R² (Accuracy)</th>
+      <th style="border: 1px solid;">0.78</th>
+    </tr>
+  </tbody>
+</table>
+  
+<table style="width:100%; margin-bottom: 50px;">
   <tr>
     <td style="width:50%; text-align:center;">
-      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/Graphics/4.1.Projected%20Annual%20Revenue%20Growth%20for%20MGLU3%20(Until%202030).png?raw=true" alt="Projeção Linear" width="100%">
+      <img src="./Graphics/4.1.Projected Annual Revenue Growth for MGLU3 (Until 2030).png" alt="Projeção Linear" width="100%">
     </td>
     <td style="width:50%; text-align:center;">
-      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/Graphics/4.2.Projected%20Annual%20Revenue%20Growth%20for%20MGLU3%20(Random%20Forest%20-%20Until%202030).png?raw=true" alt="Projeção Random Forest" width="100%">
+      <img src="./Graphics/4.2.Projected Annual Revenue Growth for MGLU3 (Random Forest - Until 2030).png" alt="Projeção Random Forest" width="100%">
     </td>
   </tr>
 </table>
@@ -180,20 +195,35 @@ pip install -r requirements.txt
 
 Os modelos comparativos apresentaram grandes discrepâncias. O modelo Random Forest mostrou-se mais estável e alinhado com as variáveis econômicas, enquanto a Extrapolação Linear indicou uma clara divergência da realidade esperada.
 
-
-| Modelo | Métrica | Valor (%) |
-| :--- | :--- | :--- |
-| Random Forest | R² (Acurácia) | 0.92 |
-| Regressão Linear | R² (Acurácia) | 0.78 |
-
-
-<table style="width:100%;">
+<table style="width: 50%; margin: 0 auto; text-align: center; border: 1px solid; margin-bottom: 50px; margin-top: 50px; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid;">Modelo</th>
+      <th style="border: 1px solid;">Métrica</th>
+      <th style="border: 1px solid;">Valor (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th style="border: 1px solid;">Random Forest</th>
+      <th style="border: 1px solid;">R² (Acurácia)</th>
+      <th style="border: 1px solid;">0.92</th>
+    </tr>
+    <tr>
+      <th style="border: 1px solid;">Regressão Linear</th>
+      <th style="border: 1px solid;">R² (Acurácia)</th>
+      <th style="border: 1px solid;">0.78</th>
+    </tr>
+  </tbody>
+</table>
+  
+<table style="width:100%; margin-bottom: 50px;">
   <tr>
     <td style="width:50%; text-align:center;">
-      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/Graphics/4.1.Proje%C3%A7%C3%A3o%20do%20Crescimento%20Anual%20da%20Receita%20MGLU3%20(At%C3%A9%202030).png?raw=true" alt="Projeção Linear" width="100%">
+      <img src="./Graphics/4.1.Projeção do Crescimento Anual da Receita MGLU3 (Até 2030).png" alt="Projeção Linear" width="100%">
     </td>
     <td style="width:50%; text-align:center;">
-      <img src="https://github.com/elucas8013/Analise-Critica-da-Extrapolacao-Linear-no-E-commerce/blob/main/Graphics/4.2.Proje%C3%A7%C3%A3o%20do%20Crescimento%20Anual%20da%20Receita%20MGLU3%20(Random%20Forest%20-%20At%C3%A9%202030).png?raw=true" alt="Projeção Random Forest" width="100%">
+      <img src="./Graphics/4.2.Projeção do Crescimento Anual da Receita MGLU3 (Random Forest - Até 2030).png" alt="Projeção Random Forest" width="100%">
     </td>
   </tr>
 </table>
