@@ -86,11 +86,11 @@ The comparative models showed large discrepancies. The Random Forest model prove
 <table style="width:100%;">
   <tr>
     <td style="width:50%; text-align:center;">
-      <h3 style="font-size: 16px;">Linear Regression</h3>
+      <h3 style="font-size: 16px; text-align:center;">Linear Regression</h3>
       <img src="./Graphics/4.1.Projected Annual Revenue Growth for MGLU3 (Until 2030).png" alt="Projeção Linear" width="100%">
     </td>
     <td style="width:50%; text-align:center;">
-      <h3 style="font-size: 16px;">Random Forest</h3>
+      <h3 style="font-size: 16px; text-align:center;">Random Forest</h3>
       <img src="./Graphics/4.2.Projected Annual Revenue Growth for MGLU3 (Random Forest - Until 2030).png" alt="Projeção Random Forest" width="100%">
     </td>
   </tr>
@@ -196,11 +196,11 @@ Os modelos comparativos apresentaram grandes discrepâncias. O modelo Random For
 <table style="width:100%;">
   <tr>
     <td style="width:50%; text-align:center;">
-      <h3 style="font-size: 16px;">Regressão Linear</h3>
+      <h3 style="font-size: 16px; text-align:center;">Regressão Linear</h3>
       <img src="./Graphics/4.1.Projeção do Crescimento Anual da Receita MGLU3 (Até 2030).png" alt="Projeção Linear" width="100%">
     </td>
     <td style="width:50%; text-align:center;">
-      <h3 style="font-size: 16px;">Random Forest</h3>
+      <h3 style="font-size: 16px; text-align:center;">Random Forest</h3>
       <img src="./Graphics/4.2.Projeção do Crescimento Anual da Receita MGLU3 (Random Forest - Até 2030).png" alt="Projeção Random Forest" width="100%">
     </td>
   </tr>
