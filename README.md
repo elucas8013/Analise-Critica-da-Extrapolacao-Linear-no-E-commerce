@@ -193,18 +193,15 @@ Os modelos comparativos apresentaram grandes discrepâncias. O modelo Random For
 
 </div>
   
-<div style="width: 100%; text-align: center; margin-bottom: 50px;">
-  
-  <div style="display: inline-block; width: 49%; text-align: center; vertical-align: top; margin-right: 1%;">
+<div style="width: 100%; margin-bottom: 50px;">
+    <div style="display: inline-block; width: 49%; text-align: center; vertical-align: top; margin-right: 1%;">
     <h3>Projeção Linear</h3>
     <img src="./Graphics/4.1.Projeção do Crescimento Anual da Receita MGLU3 (Até 2030).png" alt="Projeção Linear" width="100%">
-  </div>
-  
-  <div style="display: inline-block; width: 49%; text-align: center; vertical-align: top;">
+    </div>
+    <div style="display: inline-block; width: 49%; text-align: center; vertical-align: top;">
     <h3>Random Forest</h3>
     <img src="./Graphics/4.2.Projeção do Crescimento Anual da Receita MGLU3 (Random Forest - Até 2030).png" alt="Projeção Random Forest" width="100%">
-  </div>
-  
+    </div>
 </div>
 
 ### 5. Recomendações e Próximos Passos
